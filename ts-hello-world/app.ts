@@ -5,7 +5,7 @@
 
 import http = require('http');
 
-const hostname: string = '127.0.0.1';
+const hostname: string = '0.0.0.0';
 const port: number = 3000;
 
 type Person = { name: string, age: number };
